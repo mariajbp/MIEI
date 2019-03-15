@@ -4,27 +4,19 @@
 #include <stdlib.h>
 
 int main(int argc, char* argv[])
-{
-	pid_t pid;
+{ 
 	int i;
-	int status;
-	for(i=1; i<10; i++)
-	{
-		pid = fork();
-		if (pid == 0) 
-		{
-			printf("pid do filho: %d\n", getpid());
-			printf("pid do pai: %d\n", getppid());
-			_exit(i);
-		}
-
-		pid = wait(&status);
-		status = WEXITSTATUS(status);
-		printf("O filho %d terminou com o codigo %d  \n", pid, status);
-
-	}
-
-	
-	
-	return 0;
+	int status; 
+    pid_t pid = 0; 
+    for(i = 1; i < 11;){
+        if(!pid){
+            printf("Processo numero: %d pid: %d, ppid: %d \n",i, getpid(), getppid());
+            i++;
+            pid = fork(); 
+        }else
+            break;
+    }
+    wait(&status);
+    _exit(status);
 }
+
