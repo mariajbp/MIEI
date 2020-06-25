@@ -1,0 +1,5 @@
+cal.exe : y.tab.o lex.yy.o
+	gcc -o cal.exe y.tab.o lex.yy.o -ll
+
+y.tab : y.tab.c	gcc -c y.tab.c
+	gcc -c 

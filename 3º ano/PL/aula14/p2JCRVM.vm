@@ -1,0 +1,131 @@
+	pushn 26
+start
+	pushi 5
+	storeg 0
+	pushi 7
+	storeg 1
+	pushg 1
+	pushg 0
+	sub
+	writei
+	pushs "\n"
+	writes
+	pushi 16
+	storeg 2
+	pushi 8
+	storeg 3
+	pushg 2
+	pushi 2
+	add
+	pushg 3
+	pushi 1
+	add
+	div
+	writei
+	pushs "\n"
+	writes
+	pushg 0
+	writei
+	pushs ", "
+	writes
+	pushg 1
+	writei
+	pushs ", "
+	writes
+	pushg 2
+	writei
+	pushs ", "
+	writes
+	pushg 3
+	writei
+	pushs ", "
+	writes
+	pushg 4
+	writei
+	pushs ", "
+	writes
+	pushg 5
+	writei
+	pushs ", "
+	writes
+	pushg 6
+	writei
+	pushs ", "
+	writes
+	pushg 7
+	writei
+	pushs ", "
+	writes
+	pushg 8
+	writei
+	pushs ", "
+	writes
+	pushg 9
+	writei
+	pushs ", "
+	writes
+	pushg 10
+	writei
+	pushs ", "
+	writes
+	pushg 11
+	writei
+	pushs ", "
+	writes
+	pushg 12
+	writei
+	pushs ", "
+	writes
+	pushg 13
+	writei
+	pushs ", "
+	writes
+	pushg 14
+	writei
+	pushs ", "
+	writes
+	pushg 15
+	writei
+	pushs ", "
+	writes
+	pushg 16
+	writei
+	pushs ", "
+	writes
+	pushg 17
+	writei
+	pushs ", "
+	writes
+	pushg 18
+	writei
+	pushs ", "
+	writes
+	pushg 19
+	writei
+	pushs ", "
+	writes
+	pushg 20
+	writei
+	pushs ", "
+	writes
+	pushg 21
+	writei
+	pushs ", "
+	writes
+	pushg 22
+	writei
+	pushs ", "
+	writes
+	pushg 23
+	writei
+	pushs ", "
+	writes
+	pushg 24
+	writei
+	pushs ", "
+	writes
+	pushg 25
+	writei
+	pushs ", "
+	writes
+stop

@@ -1,0 +1,7 @@
+pushn 26
+start
+pushi 5
+storeg 0
+pushg 0
+writei 
+stop

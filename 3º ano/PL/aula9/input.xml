@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lista>
+    <item>
+        <objeto>
+            <id>A86268</id>
+            <nome>Maria pIRES</nome>
+            <notas>
+                <lista>
+                    <item>
+                        <objeto>
+                            <uc>Processamento de Linguagens</uc>
+                            <nota>16<nota>
+                        </objeto>
+                    </item>
+                    <item>
+                        <objeto>
+                            <uc>Computação Gráfica</uc>
+                            <nota>14<nota>
+                        </objeto>
+                    </item>
+                </lista>
+            </notas>
+        </objeto>
+    </item>
+</lista>

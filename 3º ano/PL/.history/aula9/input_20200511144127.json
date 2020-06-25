@@ -1,0 +1,31 @@
+[
+    {
+        "id": "A86268",
+        "nome": "Maria Pires",
+        "notas": [
+            {
+                "uc": "Processamento de Linguagens",
+                "nota": 16
+            },  
+            {
+                "uc": "Computação Gráfica",
+                "nota": 14
+            }      
+        ]
+    }
+
+    {
+        "id": "A12345",
+        "nome": "José Pires",
+        "notas": [
+            {
+                "uc": "Processamento de Linguagens",
+                "nota": 12
+            },  
+            {
+                "uc": "Computação Gráfica",
+                "nota": 10
+            }      
+        ]
+    }
+]

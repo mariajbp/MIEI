@@ -1,0 +1,33 @@
+//Lê dois num e escreve o maior 
+    pushn 2
+start
+    pushs "Introduza um valor: "          //adiciona à stack
+    writes                                //escreve para a stack
+    read
+    atoi                                   
+    storeg 0
+
+    pushs "Introduza um valor: "
+    writes
+    read
+    atoi
+    storeg 1
+
+//Inicio do if
+    pushg 0
+    pushg 1
+    sup             //aqui temos o res de a>b: 0 no topo da stack se falso, 1 se verdadeiro
+    jz else        //se está 0 no topo da stack salta parao else
+    pushg 0
+    writei 
+    jumpfimIf
+//Bloco do else
+:else 
+     pushg 1
+    writei 
+//Fim do if
+fimIf:
+    pushs "That's all folks" "
+    writes
+
+stop

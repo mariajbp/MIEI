@@ -1,0 +1,9 @@
+//Lê dois num e escreve o maior 
+
+print "introduza um valor: ";
+read a;
+print "introduza um valor: ";
+read b;
+if(a>b) print a;
+else print b;
+print "That's all folks";

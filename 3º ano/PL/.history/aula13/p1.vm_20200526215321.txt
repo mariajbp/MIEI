@@ -1,0 +1,24 @@
+pushn 26
+start
+
+//a=5
+pushi 5
+storeg 0
+
+//print a
+pushg 0
+writei 
+
+//print a+2*3;
+pushi 2
+pushi 3
+mul                      //aqui tem no topo da stack 2*3
+pushg 0                 //push do a para o topo 
+add                    //res está no topo da stack rn
+writei
+
+stop
+
+
+
+linhas 14-16: o 5 está na pos 0 entao metemos no topo da stack e adicionamos 

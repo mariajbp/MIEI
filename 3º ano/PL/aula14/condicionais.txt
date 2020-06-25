@@ -1,0 +1,9 @@
+equal§          ==
+not             !
+inf             <
+infeq           <=
+sup             >
+supeq           >=
+
+add                or              
+mul                and 

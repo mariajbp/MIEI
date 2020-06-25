@@ -1,0 +1,7 @@
+Ficheiro para o problema do somador.
+Eis uma lista de matriculas:
+    11-22-33-44 =
+    + 37:28-42-53 =
++   00...99...88...77 =
+    8-32-4-57   =
+O resultado final é o próximo de seiscentos e trinta e cinco...

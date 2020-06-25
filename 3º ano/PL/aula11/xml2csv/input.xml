@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<alunos>
+    <aluno>
+        <id>A89234</id>
+        <nome>Ana Cristina Almeida</nome>
+        <notas>
+            <nota>
+                <uc>Processamento de Linguagens</uc>
+                <valor>16</valor>
+            </nota>
+            <nota>
+                <uc>Computação Gráfica</uc>
+                <valor>14</valor>
+            </nota>
+        </notas>
+    </aluno>
+    <aluno>
+        <id>A89170</id>
+        <nome>Rui Paulo Bastos</nome>
+        <notas>
+            <nota>
+                <uc>Processamento de Linguagens</uc>
+                <valor>12</valor>
+            </nota>
+            <nota>
+                <uc>Computação Gráfica</uc>
+                <valor>10</valor>
+            </nota>
+        </notas>
+    </aluno>
+</alunos>
